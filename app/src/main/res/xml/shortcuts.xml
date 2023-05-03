@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <shortcut
+        android:icon="@drawable/archive"
+        android:shortcutId="open_workorder"
+        android:shortcutLongLabel="@string/shortcut_workorder"
+        android:shortcutShortLabel="@string/shortcut_workorder">
+        <intent
+            android:action="com.inhouse.shortcutmenu.activity.OPEN_WORKORDER"
+            android:targetClass="com.inhouse.shortcutmenu.activity.WorkOrderActivity"
+            android:targetPackage="com.inhouse.shortcutmenu" />
+    </shortcut>
+
+    <shortcut
+        android:icon="@drawable/gear"
+        android:shortcutId="open_settings"
+        android:shortcutLongLabel="@string/shortcut_settings"
+        android:shortcutShortLabel="@string/shortcut_settings">
+        <intent
+            android:action="com.inhouse.shortcutmenu.activity.OPEN_SETTINGS"
+            android:targetClass="com.inhouse.shortcutmenu.activity.SettingsActivity"
+            android:targetPackage="com.inhouse.shortcutmenu" />
+    </shortcut>
+
+</shortcuts>
